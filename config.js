@@ -19,14 +19,7 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBlFCshri_xm185wywqFK0IFzrHW5OgvbI",
-  authDomain: "angel-or-demon-application.firebaseapp.com",
-  projectId: "angel-or-demon-application",
-  storageBucket: "angel-or-demon-application.appspot.com",
-  messagingSenderId: "407278094452",
-  appId: "1:407278094452:web:283e426856afa52cd36921",
-};
+const firebaseConfig = {};
 
 initializeApp(firebaseConfig);
 
